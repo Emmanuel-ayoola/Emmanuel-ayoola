@@ -1,14 +1,17 @@
 Structure for todo activities irrespective of order
 
 service related for home lab
-  1. pi hole as a dns server on the proxmox workstation so we dont have to memorize ip addresses and set default hostname for devices/services.
-  2. spinup a vm and do gpu passthrough to run ollama(llm)
-  3. run nextcload for media storage
+  1. use Nmap service to scan lan and discover open ports per ip
+  2. Use Nginx as traffic director for all other services on the proxmox erver also handles https
+  3. pi hole as a dns server resolution on the proxmox workstation so we dont have to memorize ip addresses and set default hostname for devices/services.
+  4. spinup a vm and do gpu passthrough to run ollama(llm)
+  5. run nextcload for media storage
+  6. also use netdata along side graphana for monitoring
 
 reserch heavy and development focused
-  1. help uncla akin develop a way to use ai to collate workload from emails, workflow applet, for end of the year personal performance review.
+  1. help develop a way to use ai to collate workload from emails, workflow applet, for end of the year personal performance review.
   might lead to exposure on packaging and total uderstanding of api because we are going to automate different tools
 
-job ready/certification preparations 
-  *Network+
+certification preparations asap
+  *Network+ 
   *security+
